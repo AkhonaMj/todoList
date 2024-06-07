@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+input{
+    width: 200px;
+    height: 40px;
+    background-color: lightsteelblue;
+    border:2px solid red;
+    border-radius: 5px;
+}
+
+.sort, .add{
+    height: 43px;
+    width: 60px;
+    background-color: palevioletred;
+    border: 2px solid red;
+    border-radius: 5px;
+
+}
+
+/* 
+ul{
+    list-style-type:none ;
+    padding: 0;
+} */
+
+p {
+    background-color: pink;
+    height: 40px;
+    width: 200px;
+    margin-left: 588px;
+    border-radius: 5px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Adjust the spacing between the checkbox and the text */
+}
